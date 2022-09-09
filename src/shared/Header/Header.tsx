@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import { BiMenu } from "react-icons/bi";
 
 import AppLogo from "assets/AppLogo.png";

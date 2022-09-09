@@ -1,4 +1,3 @@
-import React from "react";
 import "./Hero.scss";
 
 import Header from "shared/Header/Header";

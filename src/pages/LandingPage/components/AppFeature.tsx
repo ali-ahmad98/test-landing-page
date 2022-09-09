@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./AppFeature.scss";
 
 import Button from "shared/Button/Button";
