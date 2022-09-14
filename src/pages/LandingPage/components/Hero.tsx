@@ -20,35 +20,34 @@ const Hero = () => {
       <section className="content-container">
         <div className="content">
           <div className="contentDiv1">
-            <div className="hero-text">
-              <p>My Simple Family App</p>
-              <h1>Get Points</h1>
-              <h1>for Compliting</h1>
-              <h1>Your Task.</h1>
-              <p>
-                The points per task and rewards are set by the parents. Which can be redeemed for
-                awards.
-              </p>
-              <img src={EllipseLarge1} alt="EllipseLarge1" />
-            </div>
+            <div>
+              <div className="hero-text">
+                <p>My Simple Family App</p>
+                <h1>Get Points</h1>
+                <h1>for Compliting</h1>
+                <h1>Your Task.</h1>
+                <p>
+                  The points per task and rewards are set by the parents. Which can be redeemed for
+                  awards.
+                </p>
+                <img src={EllipseLarge1} alt="EllipseLarge1" />
+              </div>
 
-            <br />
+              <div className="play-button">
+                <img src={PlayIcon} alt="PlayIcon" /> &nbsp;&nbsp;
+                <p>Watch Video</p>
+              </div>
 
-            <div className="play-button">
-              <img src={PlayIcon} alt="PlayIcon" /> &nbsp;&nbsp;
-              <p>Watch Video</p>
-            </div>
+              <br />
 
-            <br />
-            <br />
+              <div className="store-buttons">
+                <img src={GooglePlay} alt="GooglePlay" />
+                <img src={AppStore} alt="AppStore" />
+              </div>
 
-            <div className="store-buttons">
-              <img src={GooglePlay} alt="GooglePlay" />
-              <img src={AppStore} alt="AppStore" />
-            </div>
-
-            <div className="user-avatar">
-              <img src={UserAvatar} alt="UserAvatar" />
+              <div className="user-avatar">
+                <img src={UserAvatar} alt="UserAvatar" />
+              </div>
             </div>
           </div>
 

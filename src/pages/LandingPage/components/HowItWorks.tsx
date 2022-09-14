@@ -47,7 +47,6 @@ const HowItWorks = () => {
             <small>{data.text}</small>
             <br />
             <br />
-
             <a href="#">{`Learn More >`}</a>
           </div>
         ))}

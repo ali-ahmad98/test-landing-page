@@ -19,6 +19,8 @@
     height: auto;
     text-align: left;
     position: relative;
+    display: flex;
+    align-items: center;
 
     .hero-text {
       position: relative;
@@ -46,7 +48,7 @@
       }
       p {
         margin: 0px;
-        font-weight: 500;
+        font-weight: 600;
         display: flex;
         align-items: center;
       }
@@ -99,7 +101,7 @@
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 64px;
     line-height: 15px;
     color: #2c2d2f;
   }
@@ -126,6 +128,9 @@
 
       .contentDiv2 {
         height: 65vh;
+        img:nth-child(2) {
+          height: 65%;
+        }
         img:nth-child(3),
         img:nth-child(4),
         img:nth-child(5) {
@@ -135,7 +140,34 @@
     }
 
     h1 {
-      font-size: 30px;
+      font-size: 40px;
+    }
+  }
+}
+
+@media (min-height: 900px) or (min-width: 1500px) {
+  .heroContainer {
+    min-height: auto;
+    max-height: 900px;
+
+    .content-container,
+    .content,
+    .contentDiv1,
+    .contentDiv2 {
+      max-height: 700px;
+    }
+  }
+}
+
+@media (max-height: 900px) or (max-width: 1000px) {
+  .heroContainer {
+    min-height: 100vh;
+
+    .content-container,
+    .content,
+    .contentDiv1,
+    .contentDiv2 {
+      height: auto;
     }
   }
 }

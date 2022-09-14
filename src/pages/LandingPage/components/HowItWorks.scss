@@ -4,12 +4,15 @@
   padding-bottom: 50px;
 
   .works-text {
+    h1 {
+      font-size: 40px;
+    }
     position: relative;
     img {
       position: absolute;
       left: 50%;
       transform: translate(-50%);
-      bottom: 5px;
+      bottom: 8px;
     }
   }
 
@@ -30,6 +33,7 @@
         background-color: #fdf1e5;
 
         span {
+          font-size: 14px;
           line-height: 40px;
         }
       }
@@ -50,6 +54,14 @@
   }
 
   @media (max-width: 991px) {
+    .works-text {
+      h1 {
+        font-size: 24px;
+      }
+      img {
+        width: 80px;
+      }
+    }
     .cards-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
